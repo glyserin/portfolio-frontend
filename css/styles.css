@@ -5,8 +5,8 @@
 @import "components/nav-bar.css";
 
 /* Screens */
-@import "screens/about.css";
 @import "screens/index.css";
+@import "screens/about.css";
 @import "screens/project.css";
 
 body {
