@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
   </head>
   <body>
-    <h1 class="title">Serin's portfolio</h1>
+    <script src="app.js"></script>
+
+    <h1 class="title">
+      <a class="index__link" href="index.html">
+        <div>My portfolio</div>
+      </a>
+    </h1>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__button">
           <a class="nav__link" href="about.html">
-            <div>About</div>
+            <div class="nav__text">About</div>
           </a>
         </li>
         <li class="nav__button">
           <a class="nav__link" href="project.html">
-            <div>Project</div>
+            <div class="nav__text">Project</div>
           </a>
         </li>
       </ul>
     </nav>
+
+    <ul class="info__list">
+      <li class="info__item">
+        <div>이름</div>
+        <div>정세린</div>
+      </li>
+      <li class="info__item">
+        <div>생년월일</div>
+        <div>2001-06-19</div>
+      </li>
+      <li class="info__item">
+        <div>학력</div>
+        <div>홍익대학교 컴퓨터공학과 재학</div>
+      </li>
+      <li class="info__item">
+        <div>e-mail</div>
+        <div>serin.cheong@gmail.com</div>
+      </li>
+      <li class="info__item">
+        <div>github</div>
+        <a class="github__link" href="https://github.com/glyserin">
+          <div>glyserin</div>
+        </a>
+      </li>
+    </ul>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

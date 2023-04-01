@@ -1,0 +1,23 @@
+.info__list {
+  top: 250px;
+  left: 30px;
+  margin: 30px 30px;
+}
+
+.info__item {
+  display: flex;
+  padding: 5px;
+}
+
+.info__item div {
+  padding: 5px;
+}
+
+.info__item div:first-child {
+  width: 60px;
+  font-weight: 600;
+}
+
+.github__link:hover {
+  color: purple;
+}

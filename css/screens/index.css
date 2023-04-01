@@ -1,12 +1,22 @@
 body {
   margin: 0px;
-  background-color: linen;
+  background-color: whitesmoke;
 }
 
 h1 {
   margin: 0px;
   padding: 20px;
-  background-color: steelblue;
-  color: white;
+  background-color: rgb(54, 107, 149);
+  color: rgb(247, 220, 224);
   font-size: 50px;
+}
+
+.welcome {
+  font-size: x-large;
+  margin: 30px;
+}
+
+.mypicture {
+  margin: 30px;
+  width: 500px;
 }

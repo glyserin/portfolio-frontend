@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
   </head>
   <body>
-    <h1 class="title">Serin's portfolio</h1>
+    <script src="app.js"></script>
+
+    <h1 class="title">
+      <a class="index__link" href="index.html">
+        <div>My portfolio</div>
+      </a>
+    </h1>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__button">
           <a class="nav__link" href="about.html">
-            <div>About</div>
+            <div class="nav__text">About</div>
           </a>
         </li>
         <li class="nav__button">
           <a class="nav__link" href="project.html">
-            <div>Project</div>
+            <div class="nav__text">Project</div>
           </a>
         </li>
       </ul>
     </nav>
+
+    <div class="welcome">Welcome to my portfolio page~ 👼</div>
+    <img src="mypicture.jpg" class="mypicture" />
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

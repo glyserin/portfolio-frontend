@@ -1,18 +1,34 @@
 .nav {
-  position: fixed;
-  top: 200px;
+  position: relative;
   width: 100%;
-  background-color: steelblue;
-  padding: 20px 50px;
+  background-color: slategray;
+  padding: 20px 20px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
+
 .nav__list {
   display: flex;
-  justify-content: space-between;
+}
+
+.nav__button {
+  margin: 0px 10px;
 }
 
 .nav__link {
   position: relative;
   color: whitesmoke;
+}
+
+.nav__link:hover {
+  color: lightpink;
+}
+
+.nav__text {
+  font-size: large;
+}
+
+.click {
+  color: lightpink;
+  font-weight: 200;
 }
